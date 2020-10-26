@@ -1,0 +1,17 @@
+name: blazingsql
+channels:
+  - blazingsql/label/cuda10.2
+  - blazingsql
+  - rapidsai
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.8
+  - anaconda
+  - pip
+  - blazingsql
+  - jupyter
+  - pip:
+    - -r file:requirements.txt
+
